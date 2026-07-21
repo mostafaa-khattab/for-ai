@@ -6,11 +6,11 @@ load_dotenv()
 
 
 try:
-    GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
+    GOOGLE_API_KEY = st.secrets["GEMINI_API_KEY"]
 
 except:
 
-    GEMINI_API_KEY = os.getenv(
+    GOOGLE_API_KEY = os.getenv(
         "GEMINI_API_KEY"
     )
 
